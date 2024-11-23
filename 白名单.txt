@@ -1,0 +1,35 @@
+local CoreGui = game:GetService("StarterGui")
+
+CoreGui:SetCore("SendNotification", {
+    Title = "验证白名单",
+    Text = "正在验证白名单....",
+    Duration = 5, 
+})
+
+local a=tostring(game.Players.LocalPlayer.Character);
+
+if a=="qazyin"then
+_G.whitelisted=true
+elseif a=="qweyin"then
+_G.whitelisted=true
+end
+if _G.whitelisted==true then
+    local CoreGui = game:GetService("StarterGui")
+
+CoreGui:SetCore("SendNotification", {
+    Title = "验证成功",
+    Text = a.."欢迎使用鹤pro",
+    Duration = 10,
+})
+  wait(3) 
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/qazpin66/-/refs/heads/main/pro.lua"))()
+    else 
+setclipboard("951177681")
+local CoreGui = game:GetService("StarterGui")
+
+CoreGui:SetCore("SendNotification", {
+    Title = "验证失败",
+    Text = "已复制QQ群号，进群免费获得",
+    Duration = 10, 
+})
+end
