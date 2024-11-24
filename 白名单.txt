@@ -1,28 +1,36 @@
 local CoreGui = game:GetService("StarterGui")
 
 CoreGui:SetCore("SendNotification", {
-    Title = "验证白名单",
-    Text = "正在验证白名单....",
-    Duration = 5, 
+    Title = "正在验证白名单"; 
+    Text ="请耐心等待"; 
+    Duration = 2; 
 })
+  wait("3")
 
 local a=tostring(game.Players.LocalPlayer.Character);
 
-if a=="kxiaobai66"then
+if a=="cbhnhb"then
 _G.whitelisted=true
-elseif a=="qweyin"then
+elseif a=="CN_BLPO"then
 _G.whitelisted=true
 end
 if _G.whitelisted==true then
     local CoreGui = game:GetService("StarterGui")
 
 CoreGui:SetCore("SendNotification", {
-    Title = "验证成功",
+    Title = "验证成功"; 
+    Text ="正在加载等待2-5秒"; 
+    Duration = 2; 
+})
+  wait(2) 
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/qazpin66/-/refs/heads/main/pro.lua"))()
+  local CoreGui = game:GetService("StarterGui")
+  
+  CoreGui:SetCore("SendNotification", {
+    Title = "加载成功",
     Text = a.."欢迎使用鹤pro",
     Duration = 10,
-})
-  wait(3) 
-  loadstring(game:HttpGet("https://raw.githubusercontent.com/qazpin66/-/refs/heads/main/pro.lua"))()
+})     
     else 
 setclipboard("951177681")
 local CoreGui = game:GetService("StarterGui")
