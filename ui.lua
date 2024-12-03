@@ -42,7 +42,7 @@ function Nofitication:Notify(nofdebug, middledebug, all)
     WindowTitle.Parent = Window
     WindowTitle.BackgroundColor3 = Color3.fromRGB(255, 255, 235)
     WindowTitle.BackgroundTransparency = 1.000
-    WindowTitle.BorderColor3 = Color3.fromRGB(119, 74, 169)
+    WindowTitle.BorderColor3 = Color3.fromRGB(119, 74, 169, 0.5)
     WindowTitle.BorderSizePixel = 0
     WindowTitle.Position = UDim2.new(0, 8, 0, 2)
     WindowTitle.Size = UDim2.new(0, 222, 0, 22)
