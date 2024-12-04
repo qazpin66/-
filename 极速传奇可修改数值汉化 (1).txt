@@ -1,5 +1,21 @@
+local AkaliNotif = loadstring(game:HttpGet("https://raw.githubusercontent.com/Kinlei/Dynissimo/main/Scripts/AkaliNotif.lua"))()
+
+local Notify = AkaliNotif.Notify
+
+Notify({
+    Description = " 已检测到极速传奇\n 正在启动脚本 ";
+    Title = " 鹤脚本";
+    Duration = 4;
+});
+
+  wait("4")
+
 local library = loadstring(game:HttpGet("https://pastebin.com/raw/egMXJcwB", true))()
 library.options.underlinecolor = "rainbow"
+    Description = " 加载成功 ";
+    Title = " 鹤脚本";
+    Duration = 4;
+});
 
 local w = library:CreateWindow('主要的')
 w:Section('选择你的毒药!')
