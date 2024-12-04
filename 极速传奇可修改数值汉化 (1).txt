@@ -12,10 +12,6 @@ Notify({
 
 local library = loadstring(game:HttpGet("https://pastebin.com/raw/egMXJcwB", true))()
 library.options.underlinecolor = "rainbow"
-    Description = " 加载成功 ";
-    Title = " 鹤脚本";
-    Duration = 4;
-});
 
 local w = library:CreateWindow('主要的')
 w:Section('选择你的毒药!')
@@ -29,6 +25,11 @@ spawn(
         end
     end
 )
+Notify({
+    Description = " 加载成功 ";
+    Title = " 鹤脚本";
+    Duration = 4;
+});
 
 local t = w:Toggle('黄色球 x50 (城市)', {flag = "YoCity"})
 spawn( 
